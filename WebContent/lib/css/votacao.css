@@ -1,0 +1,62 @@
+.fundo {
+    width: 100vw;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center
+}
+fieldset{
+    border: 1px #000;
+}
+.menu{
+    width: 100vw;
+    background: #6C7A89;
+    height: 80px;
+}
+.caixa {
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botoes-auto-flow{
+    grid-auto-flow: column;
+}
+.botao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13;
+    width: 165px;
+    height: 35px;
+    background-color: #6C7A89;
+    padding: 9px 50px;
+    border: none;
+    color: white;
+}
+.candidatos{
+    border: none;
+    opacity: 1;
+    margin: 1px;
+    width: 600px;
+    height: 100px;
+    border-radius:4px;
+	background: #6C7A89;
+    font-size: 2em;
+    color: white;
+}
+.teclas:hover{
+    opacity: 0.5; 
+    cursor: pointer; 
+}
+.teclas:active{
+    opacity: 0.3;
+}
+.teclas.numeros{
+    background: rgb(230, 77, 56);
+}
+body {
+    margin: 0px;
+}
